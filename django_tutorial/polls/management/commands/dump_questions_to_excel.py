@@ -23,6 +23,6 @@ class Command(BaseCommand):
             ws.append(row)
 
         for x in range(1, max_row_length):
-            ws[f'{LETTERS[x]}1'] = f'Choice {x}'
+            ws.cell(column=x + 1, row=1, value=f'Choice {x}')
 
         wb.save(f'poll_dump_{str(datetime.datetime.now())}.xlsx')
