@@ -4,4 +4,5 @@
     "python.linting.enabled": true,
     "python.linting.flake8Enabled": true,
     "python.linting.pylintEnabled": true,
+    "python.pythonPath": "/Users/smassarsky/tutorials/env/bin/python",
 }
